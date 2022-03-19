@@ -173,7 +173,7 @@ coroutine.wrap(PREXT_fake_script)()
 local function LPNFV_fake_script() -- DupeGui.Script 
 	local script = Instance.new('Script', DupeGui)
 
-	Start.MouseButton1Down:connect(function()
+	
 local dupeKey = 179870382
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
